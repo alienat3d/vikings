@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- =| META |= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- =| / META |= -->
+  <title>Викинги · телесериал</title>
+  <!-- =| CSS |= -->
+  <link rel="stylesheet" href="css/main.min.css">
+  <!-- =| / CSS |= -->
+  <!-- =| JAVASCRIPT |= -->
+  <script defer src="js/main.min.js"></script>
+  <!-- =| / JAVASCRIPT |= -->
+</head>
+
+<body>
+  <!-- ### Пример подключения картинок, и html-блоков, удалить перед началом работы ### -->
+  <!-- <svg>
+    <use xlink:href="img/icons/sprite.svg#clock"></use>
+  </svg>
+  <svg>
+    <use xlink:href="img/icons/sprite.svg#coin"></use>
+  </svg>
+  <svg>
+    <use xlink:href="img/icons/sprite.svg#clouds-fill"></use>
+  </svg> -->
+  <!-- / ### Пример подключения картинок, и html-блоков, удалить перед началом работы ### -->
+
+  <div class="test wrapper">
+    <!-- === HEADER === -->
+    @@include('blocks/header.html')
+    <!-- === / HEADER === -->
+    <!-- === MAIN === -->
+    <main class="content">
+      <!-- === section_1 === -->
+      <section class="section_1">
+        <div class="test__content">
+          <img class="test__img" src="img/mentor.jpg" alt="mentor picture">
+          <div class="test__pic"></div>
+        </div>
+      </section>
+      <!-- === / section_1 === -->
+      <!-- === section_2 === -->
+      <section class="section_2">
+
+      </section>
+      <!-- === / section_2 === -->
+      <!-- === section_3 === -->
+      <section class="section_3">
+
+      </section>
+      <!-- === / section_3 === -->
+      <!-- === section_4 === -->
+      <section class="section_4">
+
+      </section>
+      <!-- === / section_4 === -->
+      <!-- === section_5 === -->
+      <section class="section_5">
+
+      </section>
+      <!-- === / section_5 === -->
+    </main>
+    <!-- === / MAIN === -->
+    <!-- === FOOTER === -->
+    @@include('blocks/footer.html')
+    <!-- === / FOOTER === -->
+  </div>
+
+</body>
+
+</html>
